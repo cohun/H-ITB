@@ -15,7 +15,7 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <!-- Body -->
-  <mat-toolbar color="warn" class="navbar">
+  <mat-toolbar color="primary" class="navbar">
     <div>
       <button mat-raised-button (click)="onClick()"><mat-icon>more_vert</mat-icon>ETAR</button>
     </div>
@@ -42,7 +42,9 @@
   </mat-toolbar>
     <h1 style="color: black">Hello</h1>
     <button mat-button>Click me!</button>
-
+    <button mat-raised-button (click)="onClick" color="primary">Action</button>
+    <button mat-raised-button (click)="onClick" color="accent">Accent</button>
+    <button mat-raised-button (click)="onClick" color="warn">Warn</button>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

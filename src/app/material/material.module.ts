@@ -10,7 +10,8 @@ import {MatButtonModule,
         MatListModule,
         MatRadioModule,
         MatDividerModule,
-        MatGridListModule
+        MatGridListModule,
+        MatTableModule
       } from '@angular/material';
 
 const MaterialComponenets = [
@@ -25,7 +26,8 @@ const MaterialComponenets = [
   MatListModule,
   MatRadioModule,
   MatDividerModule,
-  MatGridListModule
+  MatGridListModule,
+  MatTableModule
 ]
 @NgModule({
   declarations: [],

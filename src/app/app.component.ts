@@ -12,6 +12,11 @@ export class AppComponent {
   isLoading = false;
   opened = false;
 
+  favoriteSeason: string;
+  seasons: string[] = ['IDŐSZAKOS VIZSGÁLATOK', 'KARBANTARTÁS', 'JAVÍTÁS', 'ÜZEMBEHELYEZÉS'];
+
+
+
   onLoad() {
     this.isLoading = true;
     setTimeout(() => {

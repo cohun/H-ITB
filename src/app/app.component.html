@@ -37,16 +37,16 @@
     <div>
       <button class="btn" mat-raised-button [matMenuTriggerFor]="menu">LISTÁK</button>
       <mat-menu #menu="matMenu">
-        <button mat-menu-item>Termék</button>
-        <button mat-menu-item>Cég</button>
-        <button mat-menu-item>Munka</button>
+          <button mat-menu-item>CÉG</button>
+        <button mat-menu-item>TERMÉK</button>
+        <button mat-menu-item>{{favoriteSeason}}</button>
       </mat-menu>
 
       <button mat-raised-button [matMenuTriggerFor]="menu">BEVITEL</button>
       <mat-menu #menu="matMenu">
-        <button mat-menu-item>Termék</button>
-        <button mat-menu-item>Cég</button>
-        <button mat-menu-item>Munka</button>
+        <button mat-menu-item>CÉG</button>
+        <button mat-menu-item>TERMÉK</button>
+        <button mat-menu-item>{{favoriteSeason}}</button>
       </mat-menu>
 
     </div>

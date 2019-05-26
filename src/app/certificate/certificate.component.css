@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 800px;
+}
+
+.example-header-image {
+  background-image: url('../../assets/HI_favicon_new.jpg');
+  background-size: cover;
+}
+.img {
+  height: 58px;
+}
+p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

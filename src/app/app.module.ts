@@ -8,11 +8,13 @@ import { FormsModule } from "@angular/forms";
 import { MaterialModule } from './material/material.module';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { CustomersComponent } from './customers/customers.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomersComponent
+    CustomersComponent,
+    CertificateComponent
   ],
   imports: [
     BrowserModule,

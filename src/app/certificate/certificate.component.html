@@ -1,11 +1,11 @@
-<mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title fxLayout="row" fxLayoutGap="20px">
-      <span fxFlex="18%">
+<mat-card class="example-card" style="color: black">
+  <mat-card-header style="margin-bottom: -8px">
+    <mat-card-title fxLayout="row" fxLayoutGap="16px">
+      <span fxFlex="20%">
         <img src="../../assets/H-ITB_logo_Stencil.jpg" alt=""s class="img">
         <mat-card-subtitle style="font-size: 50%">
-          <p>Emelőgép Szakszolgálat</p>
-          <pre>
+          <p  style="color: black">Emelőgép Szakszolgálat</p>
+          <pre   style="color: black">
 1119 Budapest
 Kelenvölgyi határsor 5
 Tel.:(06-1) 205-6208
@@ -15,39 +15,74 @@ www.h-itb.hu
         </mat-card-subtitle>
       </span>
       <span fxFlex fxFlexAlign="start">
-        TEHERFELVEVŐ ESZKÖZÖK FŐVIZSGÁLATI JEGYZŐKÖNYVE
-        <mat-card-subtitle><p>az Emelőgép Biztonsági Szabályzatáról szóló 47/1999 (VIII.4) GM rendelet melléklete szerint</p></mat-card-subtitle>
-        <span fxLayout="row" fxLayoutGap="150px">
-        <mat-card >
-          <mat-card-title style="font-size: 75%">
-            Jegyzőkönyv sorszáma:
-          </mat-card-title>
-          <mat-card-subtitle>
-            9903/2019
-          </mat-card-subtitle>
+        <span class="mat-h3">TEHERFELVEVŐ ESZKÖZÖK FŐVIZSGÁLATI JEGYZŐKÖNYVE</span>
+
+        <mat-card-subtitle style="color: black" ><p style="font-size: 75%">az Emelőgép Biztonsági Szabályzatáról szóló 47/1999 (VIII.4) GM rendelet melléklete szerint</p></mat-card-subtitle>
+        <mat-card fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px" style="margin-top: 36px"  style="color: black" >
+          <span class="mat-body">Jegyzőkönyv sorszáma:</span>
+          <span class="mat-body-2">98305/2019</span>
         </mat-card>
-        <mat-card>
-          <mat-card-title style="font-size: 75%">
-            Termékazonosító:
-          </mat-card-title>
-          <mat-card-subtitle>
-            9903/2019
-          </mat-card-subtitle>
-        </mat-card>
-        </span>
       </span>
     </mat-card-title>
   </mat-card-header>
-<hr>
+
   <mat-card-content>
 <!-- Üzemeltető adatai: -->
-
-
-
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-  </mat-card-actions>
+<hr>
+<mat-card fxLayout="row" fxLayoutAlign="space-between center" style="color: black" >
+  <span class="mat-body">Üzemeltető:</span>
+  <span class="mat-body-2">Pero-Safe Kft. 9028 Győr Búzakalász u. 26.</span>
 </mat-card>
-
+<mat-card fxLayout="row" fxLayoutAlign="space-between"  style="color: black"  >
+  <span class="mat-body">Termék megnevezése:</span>
+  <span class="mat-body-2">irs 10 2/4 m körkötél</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between"  style="color: black"  >
+  <span class="mat-body">Termékazonosító:</span>
+  <span class="mat-body-2">17305/SE</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Teherbírás (KN/áganként):</span>
+  <span class="mat-body-2">1000</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Túlterheléses statikai vizsgálat értéke (kN):</span>
+  <span class="mat-body-2">1200</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Terhelési próba indoka:</span>
+  <span class="mat-body-2">Üzemeltető kérésére végzett vizsgálat</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Terhelési próba dátuma:</span>
+  <span class="mat-body-2">2019.05.22.</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Következő vizsgálat dátuma:</span>
+  <span class="mat-body-2">2020.05.22.</span>
+</mat-card>
+<hr>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Vizsgálat megállapítása:</span>
+  <span class="mat-body-2">Megfelelt</span>
+</mat-card>
+<hr>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Indoklás:</span>
+  <span class="mat-body-2">...</span>
+</mat-card>
+<mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black" >
+  <span class="mat-body">Javításhoz felhasznált anyagok:</span>
+  <span class="mat-body-2">...</span>
+</mat-card>
+<p  style="color: black" class="mat-small">Az emelőgép üzemeltetője köteles az emelőgép függesztékek rendeltetésszerű használatáról,
+  biztonságos állapotának megőrzéséről, az időszakos vizsgálatokról és a karbantartás szakszerű
+   és rendszeres elvégzéséről gondoskodni.</p>
+   <p>Dátum: 2018.05.22.</p>
+   <br>
+  <mat-card fxLayout="row" fxLayoutAlign="space-between" style="color: black"  >
+    <span class="mat-body">Vizsgálók:</span>
+    <span class="mat-body-2">Nagy Imre</span>
+  </mat-card>
+  </mat-card-content>
+</mat-card>

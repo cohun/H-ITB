@@ -1,5 +1,5 @@
 .example-card {
-  max-width: 800px;
+  max-width: 650px;
 }
 
 .example-header-image {
@@ -12,4 +12,7 @@
 p {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+.numbers {
+  margin-left: 15px;
 }
